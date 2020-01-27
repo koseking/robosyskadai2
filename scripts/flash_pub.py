@@ -15,8 +15,8 @@ if __name__ == '__main__':
     rospy.init_node('led_pub')
 
     io = wiringpi.GPIO(wiringpi.GPIO.WPI_MODE_GPIO_SYS)
-    io.pinMode(14,io.OUTPUT)  # Setup pin 11
-    io.pinMode(17,io.OUTPUT)  # Setup pin 8
+    io.pinMode(14,io.OUTPUT)  # ピンのセットアップ
+    io.pinMode(17,io.OUTPUT)  
 
     while not rospy.is_shutdown():
         i = raw_input()
