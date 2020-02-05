@@ -35,3 +35,5 @@ if __name__ == '__main__':
             io.digitalWrite(14,0)
             io.digitalWrite(17,0)
             time.sleep(1)
+
+            
