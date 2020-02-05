@@ -13,3 +13,4 @@ Publisher側で入力ができ、 Subscriber側でLEDの状態が分かります
     $ [LED OFF, LED OFF]
   ```
 ## 動画URL
+https://youtu.be/spEM12CXKTI
