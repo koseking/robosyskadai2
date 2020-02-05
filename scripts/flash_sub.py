@@ -14,3 +14,5 @@ if __name__ == "__main__":
     rospy.init_node("led_sub")
     sub = rospy.Subscriber('led_flash_str', String, string_check)
     rospy.spin()
+
+    
